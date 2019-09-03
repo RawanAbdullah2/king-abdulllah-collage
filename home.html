@@ -1,0 +1,59 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    
+ <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+   
+</head>
+	<script>
+	var i=0;
+		var images=[];
+		var time =3000;
+		
+		images[0]= 'collage.jpg';
+		images[1]='2.jpg';
+		images[2]='3.jpg';
+		images[3]='4.jpg';
+		images[4]='5.jpg';
+		images[5]='1.jpg';
+		images[6]='itt.jpg';
+		function changeImg()
+		{
+			document.slide.src=images[i];
+			if (i<images.length-1){
+				i++
+			}
+			else{
+				i=0;
+			}
+			setTimeout("changeImg()",time);
+		}
+		window.onload=changeImg;
+	</script>
+
+<body>
+	<div>
+ <img name="slide" class="imgs" />
+<img src="ITlogo%20(1).png" class="logoit">
+<img src="jamaah.png" class="logojamaah">
+<p class="iT"> King Abdullah II College for Information Technology</p>
+
+	</div >
+	 <div style=" padding: 30px 0px 0px 300px;">
+	<p class="about" style="position: absolute;margin: 0px" > <a  href= "aboutCollage.html" target="_self" class="link"> <span style="color: red;font-size: 35px">A</span>bout Collage</a> </p>
+		 <p class="about" style="position: absolute;margin: 0px 0px 0px 300px;"> <a  href= "acadimcsection.html" target="_self" class="link">  <span style="color: red;font-size: 35px">A</span>cademic Sections</a> </p>
+		 <p class="about" style="margin: 0px 0px 0px 600px;"> <a  href= "studyplans.html" target="_self" class="link">  <span style="color: red;font-size: 35px">S</span>tudy plans</a> </p>  
+		 <p class="about" style="position: absolute; margin: 50px 0px 0px 0px "><a href= "mangerandemployee.html" target="_self" class="link">  <span style="color: red;font-size: 35px">M</span>anager <span style="color: red;font-size: 35px">E</span>mployee</a></p>
+		 <p class="about" style="position: absolute;margin: 50px 0px 0px 300px;"> <a  href= "achivement.html" target="_self" class="link">  <span style="color: red;font-size: 35px">A</span>chievements</a> </p>
+		 <p class="about" style="position: relative;margin: 50px 0px 0px 600px;"> <a  href= "collagenwes.html" target="_self" class="link">  <span style="color: red;font-size: 35px">C</span>ollege News</a> </p>
+		
+	</div>
+	<br><br>
+
+<p style="color: darkgray ;margin-top:0px;text-align: center"> KASIT.JU&#64;2019.com </p>
+</body>
+
+</html>

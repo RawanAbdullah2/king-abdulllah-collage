@@ -1,0 +1,45 @@
+<html>
+<head>
+	 <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css" type="text/css">
+	
+	<script>
+	var i=0;
+		var images=[];
+		var time =8000;
+		
+		images[0]= 'BIT_New_Logo.png';
+		images[1]='CIS_New_Logo.png';
+		images[2]='CS_New_Logo.png';
+		
+		function changeImg()
+		{
+			document.slide.src=images[i];
+			if (i<images.length-1){
+				i++
+			}
+			else{
+				i=0;
+			}
+			setTimeout("changeImg()",time);
+		}
+		window.onload=changeImg;
+	</script>
+	</head>
+<body>
+	<div style="margin:-8px;">
+		 <div>
+	<p class="abouttopspisahl" style="position: absolute;margin: 0px">King   <span style="color: red;font-size: 25px">Abdullah II</span> College for Information Technology </p>		
+	<p class="abouttop" style="position: absolute;margin: 0px 0px 0px 340;" > <a  href= "home.html" target="_self" class="linktop"> <span style="color: red;font-size: 25px">H</span>ome</a> </p>
+		 <p class="abouttop" style="position: absolute;margin: 0px 0px 0px 513;"> <a  href= "aboutCollage.html" target="_self" class="linktop">  <span style="color: red;font-size: 25px">A</span>bout collage</a> </p>
+		 <p class="abouttop" style="position: absolute;margin: 0px 0px 0px 684;"> <a  href= "acadimcsection.html" target="_self" class="linktop">  <span style="color: red;font-size: 25px">A</span>cademic Sections</a> </p>  
+		 <p class="abouttop" style="position: absolute;margin: 0px 0px 0px 855; "><a href= "mangerandemployee.html" target="_self" class="linktop">  <span style="color: red;font-size: 25px">M</span>anager <span style="color: red;font-size: 25px">E</span>mployee</a></p>
+		 <p class="abouttop" style="position: absolute;margin: 0px 0px 0px 1029;"> <a  href= "achivement.html" target="_self" class="linktop">  <span style="color: red;font-size: 25px">A</span>chievements</a> </p>
+		 <p class="abouttop" style="position: relative;margin: 0px 0px 0px 1197;"> <a  href= "collagenwes.html"target="_self" class="linktop">  <span style="color: red;font-size: 25px">C</span>ollege News</a> </p>
+			
+	</div>
+	</div>
+	<p style="font-size: 40px;font-family: monospace;"> Departments Study Plans</p>
+		<img name="slide" class="plans" />
+	</body>
+</html>

@@ -1,0 +1,23 @@
+رح احكي بالانجليزي بس رح اخبص كثيير الله يعينك :)  
+
+hello, first page"home" contain in top a small slideshow i did it in java script
+,and i put a green shadow to images ,
+then i put the collage name in padding and posittion and shadow the text.
+
+in body i put six pargrphe and design it in css and do hover to it and every box have link to other pages.
+
+
+*******
+in page 'About collage '
+asimple page that define our collage and put picture .
+
+******
+in page 'Acadimc section '
+asimple page that define the section in the collage and i put a small border ans make the reduis 50% .
+
+******
+in page 'STudy plans '
+simple slideshow that display the plans-javascript- .
+*******
+in page 'Manager Employee '
+ in a circle way make images of doctors and write the name of each doctor under images.   
